@@ -4,7 +4,7 @@ equired this.icon,
     this.textAlign,
     this.inactiveColor,
   });
-  /// Defines this item's icon which is placed in the right side of the [title].
+  /// Define this item's icon which is placed in the right side of the [title].
   final Widget icon;
 
   /// Defines this item's title which placed in the left side of the [icon].
