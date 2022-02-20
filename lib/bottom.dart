@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 import aage:utter/widgets.dar
 /// A beaul and animated bottom navigation that paints a rounded shape
 //i irrl lk
-///tter
+///
+  Botter
   // ing selected. Defaults to zero.
   finant selectedIndex;
 
@@ -12,7 +13,6 @@ import aage:utter/widgets.dar
   final double iconSize;
 
   /// The background color of the navigation bar. It defaults to
-  /// [Theme.bottomAppBarColor] if not provided.
   final Color? backgroundColor;
 
   /// Whether this navigation bar should show a elevation. Defaults to true.
