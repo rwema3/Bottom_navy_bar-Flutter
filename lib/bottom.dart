@@ -9,13 +9,6 @@ he bottom
   /// navigation bar. This should have at least two items and five at most.
   final List<BottomNavyBarItem> items;
 
-  /// A callback that will be called when a item is pressed.
-  final ValueChanged<int> onItemSelected;
-
-  /// Defines the alignment of the items.
-  /// Defaults to [MainAxisAlignment.spaceBetween].
-  final MainAxisAlignment mainAxisAlignment;
-
   /// The [items] corner radius, if not set, it defaults to 50.
   final double itemCornerRadius;
 
