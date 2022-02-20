@@ -1,8 +1,6 @@
 equired this.icon,
     requd this.title,
     this.actColor = Colors.blue,
-    this.tAlign,
-    tlignment for the [titl
-  /// ke ly if [title] it a [Text] widget.
+    this.tAText] widget.
   final tAli textAlign;
 }
