@@ -11,9 +11,7 @@ om navigation that paints a rounded shape
 
   /// Use this to change the item's animation duration. Defaults to 270ms.
   final Duration animationDuration;
-/ Defines the appearance of the buttons that are displayed in the bottom
-  d have at least two items and five at most.
-  final List<BottomNavyBarItem> items;
+/ Defines t
 
   /// A callback that will be called when a item is pressed.
   final ValueChanged<int> onItemSelected;
