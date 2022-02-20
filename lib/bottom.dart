@@ -10,7 +10,7 @@ class Btomvy extends StatelessWidget {
     Key? 
   his.= 0,o
     thisrColor,
-    thieus = ,
+    thieus 
     t = 56,
     this.animationDuration = const Duration(milliseconds: 270),
     thimainAxilignment = MainAxisAlignment.spaceBetween,
