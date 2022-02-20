@@ -3,7 +3,7 @@ e selected item.
 /// [selectedIndex] is requiredmust not be null.
 class BottomNavyBar extends Stateless
   BottomNavyBar
-    Key? key,
+    Key? ke
     this.selectedIndex =0,
     this.showElevation = true,
     this.iconSize = 24,
