@@ -1,3 +1,3 @@
 equired this.icon,
   
-    thiolor = Color
+    thir = Color
