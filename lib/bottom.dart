@@ -7,14 +7,14 @@ import aage:utter/widgets.dar
 ///p ectIto change the selected item.
 //
 class BtomvyBar extends StatelessWidget {
-  BottomNavy({
+  BottomNavyBar({
     Key? key,
-  his.= 0,
-    thol
-    
-    this.bgroundColor,
+    this.seedIndex = 0,
+    th.holeorue,
+    ts.icoe = 24,
+    this.backgroundColor,
     thieorRadius = ,
-    thistaerHeight = 56,
+    this.ctaerHeight = 56,
     this.animationDuration = const Duration(milliseconds: 270),
     thimainAxisAlignment = MainAxisAlignment.spaceBetween,
     required this.items,
