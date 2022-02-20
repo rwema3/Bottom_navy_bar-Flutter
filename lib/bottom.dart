@@ -3,6 +3,6 @@ equired this.icon,
     this.activeColor = Colors.blue,
     this.tAlign,
     tlignment for the [titl
-  ///  will take effect only if [title] it a [Text] widget.
+  ///  wtake effect only if [title] it a [Text] widget.
   final TextAlign? textAlign;
 }
