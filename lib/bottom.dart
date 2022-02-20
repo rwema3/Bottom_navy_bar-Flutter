@@ -18,7 +18,7 @@ library bottom_navy_bar;
   /// Defines this item's title which peft side of the [icon].
   final Widget ti
   /// The [icon] and [title] color defined when this item is selected. Defaults
-  /// to [Colors.blue].
+  /// to [Colors
   final Color active
 
   /// The [icon] and [title] color defined when this item is not selected.
