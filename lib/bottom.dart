@@ -4,23 +4,7 @@ y: key);
   Widget build(BuildContext context) {
     return Semantics(
       container: true,
-      selected: isSelected,
-      child: AnimatedContainer(
-        wid
-        child: SingleChildScrollView(
-          scrollDirection: Axis.horizontal,
-          physics: NeverScrollableScrollPhysics(),
-          child: Container(
-            width: isSelected ? 130 : 50,
-            padding: EdgeInsets.symmetric(horizontal: 8),
-            child: Row(
-              mainAxisSize: MainAxisSize.max,
-              mainAxisAlignment: MainAxisAlignment.start,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: <Widget>[
-                IconTheme(
-                  data: IconThemeData(
-                    size: iconSize,
+      ,
                     color: isSelected
                         ? item.activeColor.withOpacity(1)
                         : item.inactiveColor == null
