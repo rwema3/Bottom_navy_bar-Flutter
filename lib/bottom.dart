@@ -5,7 +5,7 @@ equired this.icon,
     t.inactiveColor,
   });
   /// his item's icon which is placed in the right side of the [title].
-  final Widget ico
+  final Wzzsidget ico
   /itle wlaced in the left side of the [icon]s
   //oloined when this item is selected. Defaults
 ined when this item is not selected.
