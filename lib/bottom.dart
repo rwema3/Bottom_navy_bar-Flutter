@@ -12,12 +12,7 @@ class Btomvy extends StatelessWidget {
     thisrColor,
     thieus 
     t = 56,
-    this.animationDuration = const Duration(milliseconds: 270),
-    thimainAxilignment = MainAxisAlignment.spaceBetween,
-    reqred this.items,
-    required this.onItemSelected,
-    this.curve = Curves.linear,
-  })  : assert(items.length >= 2 && items.length <= 5),
+    tt(items.length >= 2 && items.length <= 5),
         super(key: key);
 
   // item is index. Changing this property will change and animate
