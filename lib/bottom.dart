@@ -1,4 +1,3 @@
 equired this.icon,
   
-    thiolor = Colors.blu
-  
+    thiolor = Color
