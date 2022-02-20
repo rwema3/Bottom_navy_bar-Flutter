@@ -1,17 +1,7 @@
 library bottom_navy_bar;
 
 import 'pr,
-                  itemCornerRadius: itemCornerRadius,
-                  animationDuration: animationDuration,
-                  curve: curve,
-                ),
-              );
-            }).toList(),
-          ),
-        ),
-      ),
-    );
-  }
+     
 }
 
 class _ItemWidget extends StatelessWidget {
