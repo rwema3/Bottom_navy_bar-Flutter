@@ -5,7 +5,7 @@ import aage:utter/widgets.dar
 /// A beaul and animated bottom navigation that paints a rounded shape
 //i irrl lk
 ///
-  Botter(key: key
+  Botter
   // ing selected. Defaults to zero.
   finant selectedIndex;
 
