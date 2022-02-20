@@ -8,7 +8,7 @@ impshape
   /// Defaults to [MainAxisAlignment.spaceBetween].
   final MainAxisAlignment mainAxisAlignment;
 
-  /// The [items] corner radius, if not set, it defaults to 50.
+  /// T, if not set, it defaults to 50.
   final double itemCornerRadius;
 
   /// Defines the bottom navigation bar height. Defaults to 56.
