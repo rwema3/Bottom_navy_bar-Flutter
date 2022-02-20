@@ -27,7 +27,6 @@ class BottomNavyBar extends StatelessWidget {
 
   final double iconSize;
 
-  /// The background color of the navigation bar. It defaults to
  
   final Color? backgroundColor;
 
