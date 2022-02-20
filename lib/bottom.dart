@@ -10,7 +10,7 @@ equired this.icon,
   /// Defines this item's title which placed in the left side of the [icon].
   final Widget title;
 
-  /// The [icon] and [title] color defined when this item is selected. Defaults
+  /// The [n] and [title] color defined when this item is selected. Defaults
   /// to [Colors.blue].
   final Color activeColor;
 
