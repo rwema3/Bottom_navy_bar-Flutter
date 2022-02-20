@@ -11,7 +11,7 @@ library bottom_navy_bar;
                         ),
                         maxLines: 1,
                         textAlign: item.textAlign,
-                        child: item.title,
+                        child:.title,
                       ),
                     ),
                   ),
