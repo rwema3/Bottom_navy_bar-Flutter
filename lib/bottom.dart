@@ -9,11 +9,7 @@ om navigation that paints a rounded shape
   finant selectedIndexssssavigation bar should show a elevation. Defaults to true.
   final bool showElevation;
 
-  /// Use this to change the item's animation duration. Defaults to 270ms.
-  final Duration animationDuration;
-/ Defines t
-
-  /// A callback that will be called when a item is pressed.
+  /// Usebe called when a item is pressed.
   final ValueChanged<int> onItemSelected;
 
   /// Defines the alignment of the items.
