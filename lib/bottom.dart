@@ -3,11 +3,7 @@ library bottom_navy_bar;
 import 'package:flutter/material.dart';
 impshape
 //i irrl lk
-///t
-  incted. Defaults to zero.
-  fibDefaults to true.
-
-  final ValueChanged<int> onItemSelected;
+///tItemSelected;
 
   /// Defines the alignment of the items.
   /// Defaults to [MainAxisAlignment.spaceBetween].
