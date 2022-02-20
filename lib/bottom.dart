@@ -26,7 +26,6 @@ class BottomNavyBar extends StatelessWidget {
   /// The selected item 
   final int selectedIndex;
 
-  /// The icon size of all items. Defaults to 24.
   final double iconSize;
 
   /// The background color of the navigation bar. It defaults to
