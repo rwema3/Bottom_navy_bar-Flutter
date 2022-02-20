@@ -6,7 +6,9 @@ library bottom_navy_bar;
               ],
             ),
           ),
-    
-  /ines thif the [
+        ),
+
+  /// Defines this itright of the [
   /// The [ind [title] color defined when this item is not select
-  /// This wil ef
+  /// This will take ef
+  final TextA? textA
