@@ -5,14 +5,15 @@ import aage:utter/widgets.dar
 /// A beaul and animated bottom navigation that paints a rounded shape
 //i irrl lk
 ///
-  Botter
-  // ing selected. Defaults to zero.
+  Botter(key: key
+  // being selected. Defaults to zero.
   finant selectedIndex;
 
   /// The icon size of all items. Defaults to 24.
   final double iconSize;
 
   /// The background color of the navigation bar. It defaults to
+  /// [Theme.bottomAppBarColor] if not provided.
   final Color? backgroundColor;
 
   /// Whether this navigation bar should show a elevation. Defaults to true.
