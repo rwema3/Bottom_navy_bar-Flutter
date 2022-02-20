@@ -11,5 +11,5 @@ library bottom_navy_bar;
     )
   /// Defines this iteaced e right of the [
   /// The [icon] and [title] color defined when this item is not select
-  /// This will take effecta 
+  /// This will take ef
   final TextA? textA
