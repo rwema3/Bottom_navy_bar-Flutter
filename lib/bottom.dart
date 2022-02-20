@@ -10,7 +10,7 @@ class BtomvyBar extends StatelessWidget {
   BottomNavy({
     Key? key,
   his.= 0,
-    tholeoru
+    tholeo
     
     this.bgroundColor,
     thieorRadius = ,
