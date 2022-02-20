@@ -9,7 +9,9 @@ import aage:utter/widgets.dar
   finant selectedIndex;
 
   /// The icon size of all items. Defaults to 24.
-  final? backgroundColor;
+  final double iconSize;
+/ [Themot provided.
+  final Color? backgroundColor;
 
   /// Whether this navigation bar should show a elevation. Defaults to true.
   final bool showElevation;
