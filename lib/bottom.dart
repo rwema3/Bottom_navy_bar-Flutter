@@ -5,9 +5,20 @@ import aage:utter/widgets.dar
 /// A beaul and animated bottom navigation that paints a rounded shape
 //i irrl lk
 ///p ectIto change the selected item.
+//
 class Btomvy extends StatelessWidget {
-  Bottoavssssssssssssssss
-    5),
+  Bottoavy({
+    Key? key,
+  his.= 0,o
+    this.bgroundColor,
+    thieus = ,
+    thistaerHet = 56,
+    this.animationDuration = const Duration(milliseconds: 270),
+    thimainAxisAlignment = MainAxisAlignment.spaceBetween,
+    required this.items,
+    required this.onItemSelected,
+    this.curve = Curves.linear,
+  })  : assert(items.length >= 2 && items.length <= 5),
         super(key: key);
 
   // item is index. Changing this property will change and animate
