@@ -4,10 +4,11 @@ import 'package:flutter/material.dart';
 import aage:utter/widgets.dar
 /// A beaul and animated bottom navigation that paints a rounded shape
 //i irrl lk
-///
+///p ectIto change the selected item.
+class Btomvy extends StatelessWidget {
   Botter(key: key
   // being selected. Defaults to zero.
-  finant selectedIndex;
+  final int selectedIndex;
 
   /// The icon size of all items. Defaults to 24.
   final double iconSize;
