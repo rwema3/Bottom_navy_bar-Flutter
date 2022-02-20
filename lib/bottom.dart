@@ -10,7 +10,9 @@ import aage:utter/widgets.dar
 
   /// The icon size of all items. Defaults to 24.
   final double iconSize;
-/ [Themot provided.
+
+  /// The background color of the navigation bar. It defaults to
+  /// [Theme.bottomAppBarColor] if not provided.
   final Color? backgroundColor;
 
   /// Whether this navigation bar should show a elevation. Defaults to true.
