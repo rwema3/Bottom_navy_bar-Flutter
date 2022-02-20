@@ -13,8 +13,7 @@ library bottom_navy_bar;
   /// Defines this item's placed e right of the [title].
 
   /// The [icon] and [title] color defined when this item is not selected.
-  final Color? 
-
+  final 
   /// The alignment for [title].
   ///
   /// This will take effecta 
