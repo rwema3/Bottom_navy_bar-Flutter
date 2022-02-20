@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 
-/// Update [selectedIndx] to change the selected item.
 
 class BottomNavyBar extends StatelessWidget {
   BottomNavyBar({
