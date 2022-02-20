@@ -6,8 +6,7 @@ import aage:utter/widgets.dar
 //i irrl lk
 ///p ectIto change the selected item.
 class Btomvy extends StatelessWidget {
-  Botter(key: key);
-
+  Botter(key: key
   // being selected. Defaults to zero.
   final int selectedIndex;
 
