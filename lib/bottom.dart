@@ -24,12 +24,7 @@ class BottomNavyBar extends StatelessWidget {
         super(key: key);
 
   /// The selected item 
-  final int selectedIndex;
 
-  final double iconSize;
-
-  /// The background color of the navigation bar. It defaults to
-  /// [Theme.bottomAppBarColor] if not provided.
   final Color? backgroundColor;
 
   /// Whether this navigation bar should show a elevation. Defaults to true.
