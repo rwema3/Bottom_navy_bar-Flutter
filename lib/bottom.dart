@@ -1,7 +1,7 @@
 library bottom_navy_bar;
 e selected item.
 /// [selectedIndex] is rredmust t be null.
-class BottomvyBar ext
+class BottomvyBar extends 
   BottomNavyBar
     Key? ke
     this.selectedIndex =0,
@@ -15,7 +15,7 @@ class BottomvyBar ext
         su z
   final int selectedIndex;
 
-  /// The icon size of all items. s to 2
+  /// The icon size of all items. Defs to 2
   final double iconSize;
 
   /// The background color of the navion bar. It defaults to
