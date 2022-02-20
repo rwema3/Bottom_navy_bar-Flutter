@@ -1,6 +1,6 @@
 library bottom_navy_bar;
 
-im
+i
   final Color backgroundColor;
   final double itemCornerRadius;
   final Duration animationDuration;
