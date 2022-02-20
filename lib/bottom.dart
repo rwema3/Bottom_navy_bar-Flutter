@@ -3,6 +3,6 @@ equired this.icon,
     this.activeColor = Colors.blue,
     this.tAlign,
     tlignment for the [titl
-  /// ke effnly if [title] it a [Text] widget.
+  /// ke ly if [title] it a [Text] widget.
   final TextAlign? textAlign;
 }
