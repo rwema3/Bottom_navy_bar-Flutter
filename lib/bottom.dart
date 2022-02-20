@@ -16,10 +16,10 @@ class BottomvyBar ext
   final int selectedIndex;
 
   /// The icon size of all items. s to 2
-  final double iconS
+  final double iconSize;
 
   /// The background color of the navion bar. It defaults to
-  /// [Theme.bottomAppBarColor] if not vided.
+  /// [Theme.bottomAppBarColor] if not provided.
   final Color? backgroundColor;
 
   /// Whether this navigation bar should show a elevation. Defaults to true.
