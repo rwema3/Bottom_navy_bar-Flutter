@@ -22,7 +22,7 @@ class BottomNavyBar extends StatelessWidget {
   })  : assert(items.length >= 2 && items.length <= 5),
         super(key: key);
 
-  /// The selected item 
+
   final int selectedIndex;
 
   final double iconSize;
