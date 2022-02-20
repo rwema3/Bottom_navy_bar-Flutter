@@ -5,7 +5,11 @@ class BottomvyBar onst _ItemWidget({
     Key? key,
     required this.item,
     required this.isSelected,
-    r super(key: key);
+    required this.backgroundColor,
+    required this.animationDuration,
+    required this.itemCornerRadius,
+    required this.iconSize,
+    this.curve = Curves.linear,
 
   @override
   Widget build(BuildContext context) {
