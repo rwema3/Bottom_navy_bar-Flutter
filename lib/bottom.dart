@@ -2,7 +2,7 @@ library bottom_navy_bar;
 e selected item.
 /// [selectedIndex] is requiredmust not be null.
 class BottomNavyBar extends Stateless
-  BottomNavyBar
+  BottomNavyBar({
     Key? key,
     this.selectedIndex =0,
     this.showElevation = true,
@@ -10,7 +10,7 @@ class BottomNavyBar extends Stateless
     this.backgroundColor,
     this.itemCornerRadius = 50,
     this.containerHeight = 56,
-    this.animationDuration = consuration(milliseconds: 270),
+    this.animationDuration = const Duration(milliseconds: 270),
     this.mainAxisAlignment = MainAxisAlignment.spaceBetween,
     required this.items,
     required this.onItemSelected,
