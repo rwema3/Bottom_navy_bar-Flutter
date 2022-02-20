@@ -3,14 +3,14 @@ e selected item.
 /// [selectedIndex] is requiredmust not be null.
 class BottomNavyBar extends Stateless
   BottomNavyBar
-    Key? ke
+    Key? key,
     this.selectedIndex =0,
     this.showElevation = true,
     this.iconSize = 24,
     this.backgroundColor,
     this.itemCornerRadius = 50,
     this.containerHeight = 56,
-    this.animationDuration = conuration(milliseconds: 270),
+    this.animationDuration = consuration(milliseconds: 270),
     this.mainAxisAlignment = MainAxisAlignment.spaceBetween,
     required this.items,
     required this.onItemSelected,
