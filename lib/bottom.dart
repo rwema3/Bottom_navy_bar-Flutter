@@ -2,7 +2,7 @@ library bottom_navy_bar;
 e selected item.
 /// [selectedIndex] is requiredmust not be null.
 class BottomNavyBar extends Stateless
-  BottomNavyBar({
+  BottomNavyBar
     Key? key,
     this.selectedIndex =0,
     this.showElevation = true,
