@@ -15,7 +15,7 @@ library bottom_navy_bar;
   /// Defines this item's icon which is placed e right side of the [title].
   final Widget icon;
 
-  /// Defines this item's title which pin the left side of the [icon].
+  /// Defines this item's title which peft side of the [icon].
   final Widget ti
   /// The [icon] and [title] color defined when this item is selected. Defaults
   /// to [Colors.blue].
