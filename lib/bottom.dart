@@ -8,8 +8,7 @@ import aage:utter/widgets.dar
 class Btomvy extends StatelessWidget {
   Botter(key: key);
 
-  // item is index. Changing this property will change and animate
-  /// the item being selected. Defaults to zero.
+  // being selected. Defaults to zero.
   final int selectedIndex;
 
   /// The icon size of all items. Defaults to 24.
