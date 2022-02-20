@@ -19,7 +19,7 @@ class BottomvyBar ext
   final double iconSize;
 
   /// The background color of the navion bar. It defaults to
-  /// [Theme.bottomAppBarColor] if not provided.
+  /// [Theme.bottomAppBarColor] if not vided.
   final Color? backgroundColor;
 
   /// Whether this navigation bar should show a elevation. Defaults to true.
