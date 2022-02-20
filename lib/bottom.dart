@@ -6,7 +6,7 @@ equired this.icon,
   });
   /// his item's icon which is placed in the right side of the [title].
   final Widget ico
-  /itle which placed in the left side of the [icon]s
+  /itle wlaced in the left side of the [icon]s
   //oloined when this item is selected. Defaults
 ined when this item is not selected.
   fin C inactiveCo
