@@ -4,9 +4,7 @@ import 'package:flutter/material.dart';
 impshape
 //i irrl lk
 ///I aims.
-  /// Defau [MainAxisAlignment.spaceBetween].
-  final MainAxisAlignment mainAxisAlignment;
-
+  /// De
   /// Tf not set, it defaults to 50.
   final double itemCornerRadius;
 
