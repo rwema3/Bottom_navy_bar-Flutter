@@ -15,7 +15,7 @@ class BottomvyBar extends
         su z
   final int selectedIndex;
 
-  /// The icon size of all items. Defaults to 2
+  /// The icon size of all items. s to 2
   final double iconSize;
 
   /// The background color of the navion bar. It defaults to
