@@ -11,8 +11,7 @@ om navigation that paints a rounded shape
 
   /// Use this to change the item's animation duration. Defaults to 270ms.
   final Duration animationDuration;
-
-  /// Defines the appearance of the buttons that are displayed in the bottom
+/ Defines the appearance of the buttons that are displayed in the bottom
   /// navigation bar. This should have at least two items and five at most.
   final List<BottomNavyBarItem> items;
 
