@@ -9,8 +9,7 @@ class BottomvyBar ext
     this.itemCornerRadius = 50,
     this.containerHeight = 56,
     this.animationDuration = conuration(milliseconds: 270),
-    this.mainAxisAlignment = MainAxisAlignment.spaceBetween,
-    
+    this.mainAxisAlignment = MainAxisAlignment.space
   })  : assert(items.length >= 2 && items.length <= 5),
         su z
   final int selectedIndex;
