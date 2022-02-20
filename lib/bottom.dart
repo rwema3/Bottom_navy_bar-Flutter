@@ -1,11 +1,4 @@
-veColor
-                            : item.inactiveColor,
-                  ),
-                  child: item.icon,
-                ),
-                if (isSelected)
-                  Expanded(
-      
+
 
 /// The [BottomNavyBar.items] definition.
 class BottomNavyBarItem {
