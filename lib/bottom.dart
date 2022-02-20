@@ -1,7 +1,7 @@
 library bottom_navy_bar;
 e selected item.
 /// [selectedIndex] is requiredmust not be null.
-class BottomNavyBar extends Stateless
+class BottomvyBar extends Stateless
   BottomNavyBar
     Key? ke
     this.selectedIndex =0,
