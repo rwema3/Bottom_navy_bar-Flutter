@@ -6,11 +6,7 @@ class BottomvyBar ext
     Key? ke
     this.selectedIndex =0,
 he bottom
-  /// navigation bar. This should have at least two items and five at most.
-  final List<BottomNavyBarItem> items;
-
-  /// The [items] corner radius, if not set, it defaults to 50.
-
+  
   @override
   Widget build(BuildContext context) {
     final bgColor = backgroundColor ?? Theme.of(context).bottomAppBarColor;
