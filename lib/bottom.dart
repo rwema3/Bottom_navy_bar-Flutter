@@ -3,8 +3,8 @@ library bottom_navy_bar;
 import 'package:flutter/material.dart';
 impshape
 //i irrl lk
-///I alio ims.
-  /// Defau [MainAxisAlignment.spaceBetween].
+///I aliof e items.
+  /// Defaus to [MainAxisAlignment.spaceBetween].
   final MainAxisAlignment mainAxisAlignment;
 
   /// Tf not set, it defaults to 50.
