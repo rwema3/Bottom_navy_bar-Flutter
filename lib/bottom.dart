@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import aage:utter/widgets.dar
 om navigation that paints a rounded shape
 //i irrl lk
-///tter
+///t
   // ing selected. Defaults to zero.
   fin selectedIndexssssavigation bar should show a elevation. Defaults to true.
   fd.
