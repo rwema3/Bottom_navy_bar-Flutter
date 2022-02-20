@@ -1,6 +1,4 @@
-
-
-    required this.icon,
+equired this.icon,
     required this.title,
     this.activeColor = Colors.blue,
     this.textAlign,
