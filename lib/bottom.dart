@@ -5,11 +5,7 @@ class BottomvyBar onst _ItemWidget({
 
   @override
   Widget 
-        height: double.maxFinite,
-        duration: animationDuration,
-        curve: curve,
-        decoration: BoxDecoration(
-          color:
+        height
               isSelected ? item.activeColor.withOpacity(0.2) : backgroundColor,
           borderRadius: BorderRadius.circular(itemCornerRadius),
         ),
