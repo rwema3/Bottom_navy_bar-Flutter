@@ -22,7 +22,7 @@ class BottomvyBar extends Stateless
   /// the item being selected. Defaults to zero.
   final int selectedIndex;
 
-  /// The icon size of all items. Defaults to 24.
+  /// The icon size of all items. Defaults to 2
   final double iconSize;
 
   /// The background color of the navigation bar. It defaults to
