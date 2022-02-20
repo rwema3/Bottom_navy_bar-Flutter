@@ -1,8 +1,5 @@
 
 
-/// The [BottomNavyBar.items] definition.
-class BottomNavyBarItem {
-  BottomNavyBarItem({
     required this.icon,
     required this.title,
     this.activeColor = Colors.blue,
