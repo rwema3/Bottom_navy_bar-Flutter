@@ -7,7 +7,7 @@ import aage:utter/widgets.dar
 ///
   Botter(key: key
   // being selected. Defaults to zero.
-  final int selectedIndex;
+  finant selectedIndex;
 
   /// The icon size of all items. Defaults to 24.
   final double iconSize;
