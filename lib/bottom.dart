@@ -5,20 +5,7 @@ class BottomvyBar ext
   BottomNavyBar
     Key? ke
     this.selectedIndex =0,
-
-    this.itemCornerRadius = 50,
-    this.containerHeight = 56,
-
-  /// The background color of the navion bar. It defaults to
-  /// [Theme.botto
-  final Color? backgroundC
-  /// Whether this navigation bar should show a elevation. Defaults to true.
-  final bool showElevation;
-
-  /// Use this to change the item's animation duration. Defaults to 270ms.
-  final Duration animationDuration;
-
-  /// Defines the appearance of the buttons that are displayed in the bottom
+he bottom
   /// navigation bar. This should have at least two items and five at most.
   final List<BottomNavyBarItem> items;
 
