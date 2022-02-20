@@ -6,15 +6,7 @@ y: key);
       container: true,
       selected: isSelected,
       child: AnimatedContainer(
-        width: isSelected ? 130 : 50,
-        height: double.maxFinite,
-        duration: animationDuration,
-        curve: curve,
-        decoration: BoxDecoration(
-          color:
-              isSelected ? item.activeColor.withOpacity(0.2) : backgroundColor,
-          borderRadius: BorderRadius.circular(itemCornerRadius),
-        ),
+        wid
         child: SingleChildScrollView(
           scrollDirection: Axis.horizontal,
           physics: NeverScrollableScrollPhysics(),
