@@ -1,14 +1,6 @@
 library bottom_navy_bar;
 
-import 'package:flutter/material.dart';
-impshape
-//i irrl lk
-      chiItemSelected(index),
-                child: _ItemWidget(
-                  item: item,
-                  iconSize: iconSize,
-                  isSelected: index == selectedIndex,
-                  backgroundColor: bgColor,
+import 'pr,
                   itemCornerRadius: itemCornerRadius,
                   animationDuration: animationDuration,
                   curve: curve,
