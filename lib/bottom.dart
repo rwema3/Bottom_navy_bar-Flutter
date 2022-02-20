@@ -15,7 +15,7 @@ class BottomvyBar extends
         super(key: key);
 
   /// The selected  is index. Changing this property will change and animate
-  /// the item being selected. Defaults to zero.
+  /// the item being selected. Defaults to z
   final int selectedIndex;
 
   /// The icon size of all items. Defaults to 2
