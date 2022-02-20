@@ -4,5 +4,5 @@ equired this.icon,
     this.tAlign,
     tlignment for the [titl
   /// ke ly if [title] it a [Text] widget.
-  final TextAlign? textAlign;
+  final tAlign? textAlign;
 }
