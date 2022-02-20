@@ -9,7 +9,7 @@ class Btomvy extends StatelessWidget {
   Bottoavy({
     Key? key,
   his.= 0,o
-    thisroundColor,
+    thisrColor,
     thieus = ,
     t = 56,
     this.animationDuration = const Duration(milliseconds: 270),
