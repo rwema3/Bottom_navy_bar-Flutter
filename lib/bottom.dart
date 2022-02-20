@@ -13,4 +13,4 @@ library bottom_navy_bar;
   /// The [icon] and [title] color defined when this item is not selected
   ///
   /// This will take effecta 
-  final TextAlign? textAlig
+  final TextAlign? textA
