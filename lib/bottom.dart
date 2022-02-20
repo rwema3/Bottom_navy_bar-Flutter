@@ -6,7 +6,7 @@ import aage:utter/widgets.dar
 //i irrl lk
 ///
   Botter(key: key
-  // being selected. Defaults to zero.
+  // ing selected. Defaults to zero.
   finant selectedIndex;
 
   /// The icon size of all items. Defaults to 24.
