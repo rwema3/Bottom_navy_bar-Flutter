@@ -3,21 +3,6 @@ library bottom_navy_bar;
 import 'package:flutter/material.dart';
 impshape
 //i irrl lk
-///I aims.
-  /// Deext context) {
-    final bgColor = backgroundColor ?? Theme.of(context).bottomAppBarColor;
-
-    return Container(
-      decoration: BoxDecoration(
-        color: bgColor,
-        boxShadow: [
-          if (showElevation)
-            const BoxShadow(
-              color: Colors.black12,
-              blurRadius: 2,
-            ),
-        ],
-      ),
       child: SafeArea(
         child: Container(
           width: double.infinity,
