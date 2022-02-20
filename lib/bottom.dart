@@ -8,7 +8,7 @@ equired this.icon,
   final Widget ico
   /itle which placed in the left side of the [icon]s
   //oloined when this item is selected. Defaults
-e] colorfined when this item is not selected.
+ined when this item is not selected.
   fin C inactiveColor;
 
   /// The alignment for the [title].
