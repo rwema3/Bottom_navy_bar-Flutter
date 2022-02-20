@@ -1,9 +1,14 @@
 library bottom_navy_bar;
 
 import 'package:flutter/material.dart';
-impshape
+import aage:utter/widgets.dar
+om navints a rounded shape
 //i irrl lk
-///ItemSelected;
+///t
+  incted. Defaults to zero.
+  fibDefaults to true.
+
+  final ValueChanged<int> onItemSelected;
 
   /// Defines the alignment of the items.
   /// Defaults to [MainAxisAlignment.spaceBetween].
