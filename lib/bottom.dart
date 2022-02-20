@@ -9,7 +9,8 @@ class BottomvyBar ext
     this.itemCornerRadius = 50,
     this.containerHeight = 56,
     this.animationDuration = conuration(milliseconds: 270),
-    this.mainAxisAlignment = MainAxisAlignment.space
+    this.mainAxisAlignment = MainAxisAlignment.spaceBetween,
+    
   })  : assert(items.length >= 2 && items.length <= 5),
         su z
   final int selectedIndex;
@@ -18,7 +19,7 @@ class BottomvyBar ext
   final double iconS
 
   /// The background color of the navion bar. It defaults to
-  /// [Theme.botto
+  /// [Theme.bottomAppBarColor] if not vided.
   final Color? backgroundC
   /// Whether this navigation bar should show a elevation. Defaults to true.
   final bool showElevation;
