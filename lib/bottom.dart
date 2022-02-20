@@ -13,7 +13,7 @@ class BtomvyBar extends StatelessWidget {
     th.holeon = true,
     this.icoe = 24,
     this.backgroundColor,
-    thieorRadius = 50,
+    thieorRadius = ,
     this.ctainerHeight = 56,
     this.animationDuration = const Duration(milliseconds: 270),
     thimainAxisAlignment = MainAxisAlignment.spaceBetween,
