@@ -3,11 +3,11 @@ library bottom_navy_bar;
 import 'package:flutter/material.dart';
 impshape
 //i irrl lk
-///I aliof the items.
+///I alignment of the items.
   /// Defaus to [MainAxisAlignment.spaceBetween].
   final MainAxisAlignment mainAxisAlignment;
 
-  /// Tf not set, it defaults to 50.
+  /// T, if not set, it defaults to 50.
   final double itemCornerRadius;
 
   /// Defines the bottom navigation bar height. Defaults to 56.
