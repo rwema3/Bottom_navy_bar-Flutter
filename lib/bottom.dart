@@ -11,7 +11,7 @@ equired this.icon,
   final Widget title;
 
   /// The [n] and [title] color defined when this item is selected. Defaults
-  //[Cos.blue].
+  //[Cos..
   final Color activeColor
   /// The con] and [title] color defined when this item is not selected.
   final Color? inactiveColor;
