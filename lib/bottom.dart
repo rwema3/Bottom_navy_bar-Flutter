@@ -2,7 +2,7 @@ equired this.icon,
     required this.title,
     this.activeColor = Colors.blue,
     this.textAlign,
-    this.inactiveColor,
+    t.inactiveColor,
   });
   /// his item's icon which is placed in the right side of the [title].
   final Widget ico
