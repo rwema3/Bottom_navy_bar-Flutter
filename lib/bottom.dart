@@ -11,7 +11,7 @@ class BtomvyBar extends StatelessWidget {
     Key? key,
   his.dIndex = 0,
     tholeorue,
-    ts.
+    
     this.bgroundColor,
     thieorRadius = ,
     thistaerHeight = 56,
