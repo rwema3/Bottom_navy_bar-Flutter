@@ -11,15 +11,6 @@ library bottom_navy_bar;
     );
   }
 
-/// The [BottomNavyBar.items] definition.
-class BottomNavyBarItem {
-  BottomNavyBarItem({
-    required this.icon,
-    required this.title,
-    this.activeColor = Colors.blue,
-    this.textAlign,
-    this.inactiveColor,
-  });
 
   /// Defines this item's icon which is placed in the right side of the [title].
   final Widget icon;
