@@ -10,7 +10,9 @@ class BottomvyBar extends
     this.containerHeight = 56,
     this.animationDuration = conuration(milliseconds: 270),
     this.mainAxisAlignment = MainAxisAlignment.spaceBetween,
-    
+    required this.items,
+    required this.onItemSelected,
+    this.curve = Curves.linear,
   })  : assert(items.length >= 2 && items.length <= 5),
         super(key: key);
 
