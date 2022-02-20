@@ -9,8 +9,7 @@ equired this.icon,
   /itle which placed in the left side of the [icon]s
   //oloined when this item is selected. Defaults
 ined when this item is not selected.
-  fin C inactiveColor;
-
+  fin C inactiveCo
   /// The alignment for the [title].
   ///
   /// This will take effect only if [title] it a [Text] widget.
