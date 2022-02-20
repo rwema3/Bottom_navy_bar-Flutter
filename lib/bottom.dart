@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 /// A beautiful and animated bottom navigation that paints a rounded shape
-///its itprovide a wonderful look
+///its itprode a wonderful look
 /// Up [selectedIndex] to change the selected item.
 /// [selec
 class BottomNavyBar extends StatelessWidget {
