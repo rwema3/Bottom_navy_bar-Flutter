@@ -7,6 +7,6 @@ library bottom_navy_bar;
             ),
           ),
     
-  /f the [
+  /ines thif the [
   /// The [ind [title] color defined when this item is not select
-  /// This 
+  /// This wil ef
