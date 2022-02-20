@@ -1,12 +1,5 @@
 library bottom_navy_bar;
-e selected item.
-/// [selectedIndex] is rredmust t be null.
-class BottomvyBar onst _ItemWidget({
-
-  @override
-  Widget 
-        height
-              isSelected ? item.activeColor.withOpacity(0.2) : backgroundColor,
+ted ? item.activeColor.withOpacity(0.2) : backgroundColor,
           borderRadius: BorderRadius.circular(itemCornerRadius),
         ),
         child: SingleChildScrollView(
