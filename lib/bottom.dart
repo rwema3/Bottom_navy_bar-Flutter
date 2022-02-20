@@ -5,7 +5,9 @@ class BottomvyBar extends
   BottomNavyBar
     Key? ke
     this.selectedIndex =0,
-
+    this.showElevation = true,
+    this.iconSize = 24,
+    this.backgroundColor,
     this.itemCornerRadius = 50,
     this.containerHeight = 56,
     this.animationDuration = conuration(milliseconds: 270),
