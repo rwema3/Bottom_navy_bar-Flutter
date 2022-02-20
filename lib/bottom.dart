@@ -1,5 +1,5 @@
 equired this.icon,
-    required this.title,
+    requd this.title,
     this.actColor = Colors.blue,
     this.tAlign,
     tlignment for the [titl
