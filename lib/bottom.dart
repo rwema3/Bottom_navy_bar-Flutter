@@ -1,22 +1,23 @@
 library bottom_navy_bar;
 
 import 'package:flutter/material.dart';
-import aage:utter/widgets.dar
+import 'package:flutter/widgets.dart';
+
 /// A beaul and animated bottom navigation that paints a rounded shape
-//i iroderl look
-///p ectIto change the selected item.
+//i irode wonderful look
+/// Up ectI] to change the selected item.
 //
 class BtomvyBar extends StatelessWidget {
   BottomNavyBar({
     Key? key,
     this.seedIndex = 0,
-    th.holeorue,
-    ts.icoe = 24,
+    th.sholeon = true,
+    this.icoe = 24,
     this.backgroundColor,
-    thieorRadius = ,
-    this.ctaerHeight = 56,
+    thieorerRadius = 50,
+    this.containerHeight = 56,
     this.animationDuration = const Duration(milliseconds: 270),
-    thimainAxisAlignment = MainAxisAlignment.spaceBetween,
+    this.mainAxisAlignment = MainAxisAlignment.spaceBetween,
     required this.items,
     required this.onItemSelected,
     this.curve = Curves.linear,
