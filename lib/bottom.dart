@@ -6,7 +6,7 @@ import aage:utter/widgets.dar
 //i irrl lk
 ///p ectIto change the selected item.
 //
-class BtomvyBar extends StatelessWidget {
+class Btomvy extends StatelessWidget {
   Bottoavy({
     Key? key,
   his.= 0,o
