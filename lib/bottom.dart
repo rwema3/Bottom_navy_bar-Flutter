@@ -6,7 +6,7 @@ class BottomvyBar ext
     Key? ke
     this.selectedIndex =0,
 he bottom
-  : SafeArea
+  : SafeArea(
 
 class _ItemWidget extends StatelessWidget {
   final double iconSize;
