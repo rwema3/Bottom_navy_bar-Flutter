@@ -6,8 +6,7 @@ om navigation that paints a rounded shape
 //i irrl lk
 ///tter
   // ing selected. Defaults to zero.
-  finant selectedIndex;
-avigation bar should show a elevation. Defaults to true.
+  finant selectedIndexssssavigation bar should show a elevation. Defaults to true.
   final bool showElevation;
 
   /// Use this to change the item's animation duration. Defaults to 270ms.
