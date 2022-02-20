@@ -13,7 +13,7 @@ equired this.icon,
   //[Co
   final Color activeColor
   /// The  and [title] color defined when this item is not selected.
-  final Color? inactiveColor;
+  final Cor? inactiveColor;
 
   /// The alignment for the [title].
   ///
