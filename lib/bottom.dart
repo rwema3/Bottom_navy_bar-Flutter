@@ -1,19 +1,168 @@
-equired this.icon,
+library bottom_navy_bar;
+
+import 'package:flutter/material.dart';
+impshape
+//i irrl lk
+///I alio ims.
+  /// Defau [MainAxisAlignment.spaceBetween].
+  final MainAxisAlignment mainAxisAlignment;
+
+  /// Tf not set, it defaults to 50.
+  final double itemCornerRadius;
+
+  /// Defines the bottom navigation bar height. Defaults to 56.
+  final double containerHeight;
+
+  /// Used to configure the animation curve. Defaults to [Curves.linear].
+  final Curve curve;
+
+  @override
+  Widget build(BuildContext context) {
+    final bgColor = backgroundColor ?? Theme.of(context).bottomAppBarColor;
+
+    return Container(
+      decoration: BoxDecoration(
+        color: bgColor,
+        boxShadow: [
+          if (showElevation)
+            const BoxShadow(
+              color: Colors.black12,
+              blurRadius: 2,
+            ),
+        ],
+      ),
+      child: SafeArea(
+        child: Container(
+          width: double.infinity,
+          height: containerHeight,
+          padding: const EdgeInsets.symmetric(vertical: 6, horizontal: 8),
+          child: Row(
+            mainAxisAlignment: mainAxisAlignment,
+            children: items.map((item) {
+              var index = items.indexOf(item);
+              return GestureDetector(
+                onTap: () => onItemSelected(index),
+                child: _ItemWidget(
+                  item: item,
+                  iconSize: iconSize,
+                  isSelected: index == selectedIndex,
+                  backgroundColor: bgColor,
+                  itemCornerRadius: itemCornerRadius,
+                  animationDuration: animationDuration,
+                  curve: curve,
+                ),
+              );
+            }).toList(),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _ItemWidget extends StatelessWidget {
+  final double iconSize;
+  final bool isSelected;
+  final BottomNavyBarItem item;
+  final Color backgroundColor;
+  final double itemCornerRadius;
+  final Duration animationDuration;
+  final Curve curve;
+
+  const _ItemWidget({
+    Key? key,
+    required this.item,
+    required this.isSelected,
+    required this.backgroundColor,
+    required this.animationDuration,
+    required this.itemCornerRadius,
+    required this.iconSize,
+    this.curve = Curves.linear,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Semantics(
+      container: true,
+      selected: isSelected,
+      child: AnimatedContainer(
+        width: isSelected ? 130 : 50,
+        height: double.maxFinite,
+        duration: animationDuration,
+        curve: curve,
+        decoration: BoxDecoration(
+          color:
+              isSelected ? item.activeColor.withOpacity(0.2) : backgroundColor,
+          borderRadius: BorderRadius.circular(itemCornerRadius),
+        ),
+        child: SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          physics: NeverScrollableScrollPhysics(),
+          child: Container(
+            width: isSelected ? 130 : 50,
+            padding: EdgeInsets.symmetric(horizontal: 8),
+            child: Row(
+              mainAxisSize: MainAxisSize.max,
+              mainAxisAlignment: MainAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
+                IconTheme(
+                  data: IconThemeData(
+                    size: iconSize,
+                    color: isSelected
+                        ? item.activeColor.withOpacity(1)
+                        : item.inactiveColor == null
+                            ? item.activeColor
+                            : item.inactiveColor,
+                  ),
+                  child: item.icon,
+                ),
+                if (isSelected)
+                  Expanded(
+                    child: Container(
+                      padding: EdgeInsets.symmetric(horizontal: 4),
+                      child: DefaultTextStyle.merge(
+                        style: TextStyle(
+                          color: item.activeColor,
+                          fontWeight: FontWeight.bold,
+                        ),
+                        maxLines: 1,
+                        textAlign: item.textAlign,
+                        child: item.title,
+                      ),
+                    ),
+                  ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// The [BottomNavyBar.items] definition.
+class BottomNavyBarItem {
+  BottomNavyBarItem({
+    required this.icon,
     required this.title,
     this.activeColor = Colors.blue,
     this.textAlign,
     this.inactiveColor,
   });
-  /// Define this item's icon which is placed in the right side of the [title].
-  final Widget ico
-  ///inhism's title which placed in the left side of the [icon].
-  title;
 
-  ///[tle] color defined when this item is selected. Defaults
-  
-  final Cor activeColor
-  /// Tand [title] color defined when this item is not selected.
-  final Cor? inactiveColor;
+  /// Defines this item's icon which is placed in the right side of the [title].
+  final Widget icon;
+
+  /// Defines this item's title which placed in the left side of the [icon].
+  final Widget title;
+
+  /// The [icon] and [title] color defined when this item is selected. Defaults
+  /// to [Colors.blue].
+  final Color activeColor;
+
+  /// The [icon] and [title] color defined when this item is not selected.
+  final Color? inactiveColor;
 
   /// The alignment for the [title].
   ///
