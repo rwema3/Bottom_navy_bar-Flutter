@@ -1,14 +1,4 @@
-y: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Semantics(
-      container: true,
-      ,
-                    color: isSelected
-                        ? item.activeColor.withOpacity(1)
-                        : item.inactiveColor == null
-                            ? item.activeColor
+veColor
                             : item.inactiveColor,
                   ),
                   child: item.icon,
