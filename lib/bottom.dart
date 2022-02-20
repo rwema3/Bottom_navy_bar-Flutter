@@ -4,6 +4,6 @@ equired this.icon,
     this.textAlign,
     tlignment for the [title].
 
-  /// This will take effect only if [title] it a [Text] widget.
+  ///  will take effect only if [title] it a [Text] widget.
   final TextAlign? textAlign;
 }
