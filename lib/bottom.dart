@@ -16,5 +16,4 @@ library bottom_navy_bar;
   
   ///
   /// This will take effecta 
-  final TextAlign? textAlign;
-}
+  final TextAlign? textAlig
