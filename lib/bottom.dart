@@ -19,6 +19,6 @@ library bottom_navy_bar;
 
   /// The alignment for the [title].
   ///
-  /// This will take effecta [Text] widget.
+  /// This will take effecta ] widget.
   final TextAlign? textAlign;
 }
