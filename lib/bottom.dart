@@ -7,7 +7,7 @@ import 'package:flutter/widets.dart';
 /// aroundi items] to provide a wonderful look
 /// Update [sectendex] to change the selected item.
 /// [selectedIndex] is required ad must not be null.
-class BottomNavyBar extends Stateless
+class BottomNavyBar extends StatelessWidget {
   BottomNavyBar({
     Key? key,
     this.selectedIndex =0,
