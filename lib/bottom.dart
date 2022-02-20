@@ -2,6 +2,10 @@ library bottom_navy_bar;
 e selected item.
 /// [selectedIndex] is rredmust t be null.
 class BottomvyBar onst _ItemWidget({
+    Key? key,
+    required this.item,
+    required this.isSelected,
+    r super(key: key);
 
   @override
   Widget build(BuildContext context) {
