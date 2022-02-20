@@ -3,7 +3,7 @@ library bottom_navy_bar;
 import 'package:flutter/material.dart';
 import aage:utter/widgets.dar
 /// A beaul and animated bottom navigation that paints a rounded shape
-//i iroderl look
+//i irrl look
 ///p ectIto change the selected item.
 //
 class BtomvyBar extends StatelessWidget {
