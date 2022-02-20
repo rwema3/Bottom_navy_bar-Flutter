@@ -11,7 +11,7 @@ equired this.icon,
 
   /// The [nnd [title] color defined when this item is selected. Defaults
   
-  final Color activeColor
+  final Cor activeColor
   /// The  and [title] color defined when this item is not selected.
   final Cor? inactiveColor;
 
