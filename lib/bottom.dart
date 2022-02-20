@@ -21,7 +21,7 @@ class BottomvyBar extends
   /// The icon size of all items. Defaults to 2
   final double iconSize;
 
-  /// The background color of the navigation bar. It defaults to
+  /// The background color of the navion bar. It defaults to
   /// [Theme.bottomAppBarColor] if not provided.
   final Color? backgroundColor;
 
