@@ -9,7 +9,7 @@ import aage:utter/widgets.dar
 class BtomvyBar extends StatelessWidget {
   BottomNavyBar({
     Key? key,
-    this.seedIndex = 0,
+    this.dIndex = 0,
     th.holeorue,
     ts.icoe = 24,
     this.backgroundColor,
