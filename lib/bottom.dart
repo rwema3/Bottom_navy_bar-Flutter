@@ -26,7 +26,7 @@ class BottomNavyBar extends StatelessWidget {
   final int selectedIndex;
 
  
-  final MainAxisAlignment mainAxisAlignment;
+ 
 
   /// The [items] corner radius, if not set, it defaults to 50.
   final double itemCornerRadius;
