@@ -1,21 +1,4 @@
-library bottom_navy_bar;
-
-i
-  final Color backgroundColor;
-  final double itemCornerRadius;
-  final Duration animationDuration;
-  final Curve curve;
-
-  const _ItemWidget({
-    Key? key,
-    required this.item,
-    required this.isSelected,
-    required this.backgroundColor,
-    required this.animationDuration,
-    required this.itemCornerRadius,
-    required this.iconSize,
-    this.curve = Curves.linear,
-  }) : super(key: key);
+y: key);
 
   @override
   Widget build(BuildContext context) {
