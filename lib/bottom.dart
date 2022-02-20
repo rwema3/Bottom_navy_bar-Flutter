@@ -1,7 +1,7 @@
 library bottom_navy_bar;
 e selected item.
 /// [selectedIndex] is rredmust t be null.
-class BottomvyBar extends 
+class BottomvyBar ext
   BottomNavyBar
     Key? ke
     this.selectedIndex =0,
