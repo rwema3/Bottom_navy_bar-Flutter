@@ -12,7 +12,7 @@ library bottom_navy_bar;
   }
 
 
-  /// Defines this item's icon which is placed e right side of the [title].
+  /// Defines this item's placed e right side of the [title].
   final W
 
   /// The [icon] and [title] color defined when this item is not selected.
