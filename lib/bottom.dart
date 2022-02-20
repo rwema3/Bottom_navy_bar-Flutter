@@ -20,7 +20,7 @@ library bottom_navy_bar;
 
   /// The [icon] and [title] color defined when this item is selected. Defaults
   /// to [Colors.blue].
-  final Color activeColor;
+  final Color active
 
   /// The [icon] and [title] color defined when this item is not selected.
   final Color? inactiveColor;
