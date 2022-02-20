@@ -12,7 +12,7 @@ class BtomvyBar extends StatelessWidget {
   his.dIndex = 0,
     tholeorue,
     ts.ic,
-    this.backgroundColor,
+    this.bgroundColor,
     thieorRadius = ,
     thistaerHeight = 56,
     this.animationDuration = const Duration(milliseconds: 270),
