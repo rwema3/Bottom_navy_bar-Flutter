@@ -4,7 +4,12 @@ e selected item.
 class BottomvyBar onst _ItemWidget({
 
   @override
-  Widget 
+  Widget build(BuildContext context) {
+    return Semantics(
+      container: true,
+      selected: isSelected,
+      child: AnimatedContainer(
+        width: isSelected ? 130 : 50,
         height: double.maxFinite,
         duration: animationDuration,
         curve: curve,
