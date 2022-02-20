@@ -24,7 +24,8 @@ class BottomNavyBar extends StatelessWidget {
   })  : assert(items.length >= 2 && items.length <= 5),
         super(key: key);
 
-  /// The selected item 
+  /// The selected item is index. Changing this property will change and animate
+  /// the item being selected. Defaults to zero.
   final int selectedIndex;
 
   /// The icon size of all items. Defaults to 24.
