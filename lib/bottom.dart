@@ -9,7 +9,7 @@ equired this.icon,
   ///inm's title which placed in the left side of the [icon].
   title;
 
-  ///[tlcolor defined when this item is selected. Defaults
+  //olor defined when this item is selected. Defaults
 e] colorfined when this item is not selected.
   fin C inactiveColor;
 
