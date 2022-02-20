@@ -11,7 +11,7 @@ class BtomvyBar extends StatelessWidget {
     Key? key,
   his.= 0,o
     this.bgroundColor,
-    thieorRadius = ,
+    thieorRus = ,
     thistaerHeight = 56,
     this.animationDuration = const Duration(milliseconds: 270),
     thimainAxisAlignment = MainAxisAlignment.spaceBetween,
