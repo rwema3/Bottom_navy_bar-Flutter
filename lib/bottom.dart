@@ -5,27 +5,7 @@ veColor
                 ),
                 if (isSelected)
                   Expanded(
-                    child: Container(
-                      padding: EdgeInsets.symmetric(horizontal: 4),
-                      child: DefaultTextStyle.merge(
-                        style: TextStyle(
-                          color: item.activeColor,
-                          fontWeight: FontWeight.bold,
-                        ),
-                        maxLines: 1,
-                        textAlign: item.textAlign,
-                        child: item.title,
-                      ),
-                    ),
-                  ),
-              ],
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-}
+      
 
 /// The [BottomNavyBar.items] definition.
 class BottomNavyBarItem {
