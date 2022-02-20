@@ -1,6 +1,6 @@
 library bottom_navy_bar;
 e selected item.
-/// [selectedIndex] is requiredmust not be null.
+/// [selectedIndex] is rredmust not be null.
 class BottomvyBar extends Stateless
   BottomNavyBar
     Key? ke
