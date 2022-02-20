@@ -2,7 +2,7 @@ library bottom_navy_bar;
 
 import 'package:flutter/material.dart';
 import aage:utter/widgets.dar
-om navigation that paints a rounded shape
+om navints a rounded shape
 //i irrl lk
 ///t
   incted. Defaults to zero.
