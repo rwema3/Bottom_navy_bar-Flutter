@@ -7,8 +7,10 @@ library bottom_navy_bar;
             ),
           ),
         ),
-
-  /// Defines this itright of the [
-  /// The [ind [title] color defined when this item is not select
-  /// This will take ef
-  final TextA? textA
+      ),
+    )
+  /// Defines this item's placed e right of the [
+  /// The [icon] and [title] color defined when this item is not selected
+  ///
+  /// This will take effecta 
+  final TextAlign? textAlig
