@@ -1,5 +1,5 @@
 equired this.icon,
     requd title,
-    this.actColor = Colors.blue,
+    thiolor = Colors.blue,
     tATidget.
   
