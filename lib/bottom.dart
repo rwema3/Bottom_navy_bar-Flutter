@@ -7,7 +7,7 @@ equired this.icon,
   /// Define this item's icon which is placed in the right side of the [title].
   final Widget icon;
 
-  ///inhis item's title which placed in the left side of the [icon].
+  ///inhism's title which placed in the left side of the [icon].
   final Widget title;
 
   /// The [n] and [title] color defined when this item is selected. Defaults
