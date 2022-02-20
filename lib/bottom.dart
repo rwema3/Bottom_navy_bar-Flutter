@@ -1,13 +1,6 @@
 library bottom_navy_bar;
 
-import 'pr,
-     
-}
-
-class _ItemWidget extends StatelessWidget {
-  final double iconSize;
-  final bool isSelected;
-  final BottomNavyBarItem item;
+im
   final Color backgroundColor;
   final double itemCornerRadius;
   final Duration animationDuration;
