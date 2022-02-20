@@ -6,7 +6,7 @@ om navigation that paints a rounded shape
 //i irrl lk
 ///t
   ing selected. Defaults to zero.
-  fin selectedIndexssssavigation bar should show a elevation. Defaults to true.
+  fibar should show a elevation. Defaults to true.
 
   final ValueChanged<int> onItemSelected;
 
