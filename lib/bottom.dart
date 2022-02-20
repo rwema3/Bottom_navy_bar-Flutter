@@ -9,8 +9,7 @@ import aage:utter/widgets.dar
 class BtomvyBar extends StatelessWidget {
   Bottoavy({
     Key? key,
-  his.= 0,ol
-    
+  his.= 0,o
     this.bgroundColor,
     thieorRadius = ,
     thistaerHeight = 56,
