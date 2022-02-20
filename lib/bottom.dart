@@ -6,12 +6,7 @@ library bottom_navy_bar;
                       padding: EdgeInsets.symmetric(horizontal: 4),
                       child: DefaultTextStyle.merge(
                         stylText
-                          color: item.activeColor,
-                        ontWeight: Fontht.bold,
-                        ),
-                        maxLines: 1,
-                        textAlign: item.textAlign,
-                        child:.
+                     
                       ),
                     ),
                   ),
