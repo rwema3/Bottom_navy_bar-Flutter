@@ -28,9 +28,13 @@ class BottomNavyBar extends StatelessWidget {
   final double iconSize;
 
  
+  final Color? backgroundColor;
 
+  /// Whether this navigation bar should show a elevation. Defaults to true.
+  final bool showElevation;
 
-  
+  /// Use this to change the item's animation duration. Defaults to 270ms.
+  final Duration animationDuration;
 
   /// Defines the appearance of the buttons that are displayed in the bottom
   /// navigation bar. This should have at least two items and five at most.
