@@ -5,7 +5,7 @@ import 'package:flutter/widgets.dart';
 
 
 /// Update [selectedIndx] to change the selected item.
-
+/// [selectedIndex] is required and must not be null.
 class BottomNavyBar extends StatelessWidget {
   BottomNavyBar({
     Key? key,
