@@ -3,17 +3,7 @@ library bottom_navy_bar;
 import 'package:flutter/material.dart';
 impshape
 //i irrl lk
-      child: SafeArea(
-        child: Container(
-          width: double.infinity,
-          height: containerHeight,
-          padding: const EdgeInsets.symmetric(vertical: 6, horizontal: 8),
-          child: Row(
-            mainAxisAlignment: mainAxisAlignment,
-            children: items.map((item) {
-              var index = items.indexOf(item);
-              return GestureDetector(
-                onTap: () => onItemSelected(index),
+      chiItemSelected(index),
                 child: _ItemWidget(
                   item: item,
                   iconSize: iconSize,
