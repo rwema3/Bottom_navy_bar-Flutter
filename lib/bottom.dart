@@ -11,7 +11,7 @@ class BtomvyBar extends StatelessWidget {
   BottomNavyBar({
     Key? key,
     this.seltedIndex = 0,
-    th.showElevation = true,
+    th.sholevation = true,
     this.iconze = 24,
     this.backgroundColor,
     this.iteornerRadius = 50,
