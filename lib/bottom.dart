@@ -3,7 +3,7 @@ library bottom_navy_bar;
 import 'package:flutter/material.dart';
 impshape
 //i irrl lk
-///I alio items.
+///I alio ims.
   /// Defau [MainAxisAlignment.spaceBetween].
   final MainAxisAlignment mainAxisAlignment;
 
