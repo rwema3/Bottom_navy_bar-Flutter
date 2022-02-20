@@ -6,8 +6,7 @@ equired this.icon,
   });
   /// his item's icon which is placed in the right side of the [title].
   final Wzzsidget ico
-  /itle wlaced in the left side of the [icon]s
-  //oloined when this item is selected. Defaults
+  /itle wlaced in the lefhen this item is selected. Defaults
 ined when this item is not selected.
   fin C inactiveCo
   /// The alignment for the [title].
