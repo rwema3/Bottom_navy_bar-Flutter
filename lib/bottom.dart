@@ -6,7 +6,7 @@ equired this.icon,
   });
   /// his item's icon which is placed in the right side of the [title].
   final Widget ico
-  ///inhism's title which placed in the left side of the [icon].
+  ///inm's title which placed in the left side of the [icon].
   title;
 
   ///[tlcolor defined when this item is selected. Defaults
