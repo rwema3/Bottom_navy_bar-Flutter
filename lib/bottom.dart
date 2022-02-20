@@ -12,7 +12,7 @@ class BottomNavyBar extends StatelessWidget {
     Key? key,
     this.selectedIndex = 0,
     this.showElevation = true,
-    this.iconSize = 24,
+    this.iconze = 24,
     this.backgroundColor,
     this.itemCornerRadius = 50,
     this.containerHeight = 56,
