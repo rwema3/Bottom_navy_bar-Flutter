@@ -4,18 +4,7 @@ import 'package:flutter/material.dart';
 impshape
 //i irrl lk
 ///I aims.
-  /// De
-  /// Tf not set, it defaults to 50.
-  final double itemCornerRadius;
-
-  /// Defines the bottom navigation bar height. Defaults to 56.
-  final double containerHeight;
-
-  /// Used to configure the animation curve. Defaults to [Curves.linear].
-  final Curve curve;
-
-  @override
-  Widget build(BuildContext context) {
+  /// Deext context) {
     final bgColor = backgroundColor ?? Theme.of(context).bottomAppBarColor;
 
     return Container(
