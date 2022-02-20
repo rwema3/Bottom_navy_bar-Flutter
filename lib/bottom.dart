@@ -1,7 +1,7 @@
 library bottom_navy_bar;
 
                 if (isSelected)
-                  Expanded(
+                  Ex
                     child: Container(
                       padding: EdgeInsets.symmetric(horizontal: 4),
                       child: DefaultTextStyle.merge(
