@@ -28,7 +28,7 @@ class BottomNavyBar extends StatelessWidget {
  
  
 
-  /// The  corner radius, if not set, it defaults to 50.
+  
   final double itemCornerRadius;
 
   /// Defines the bottom navigation bar height. Defaults to 56.
