@@ -10,7 +10,7 @@ import 'package:flutter/widgets.dart';
 class BtomvyBar extends StatelessWidget {
   BottomNavyBar({
     Key? key,
-    this.selectedIndex = 0,
+    this.seltedIndex = 0,
     th.showElevation = true,
     this.iconze = 24,
     this.backgroundColor,
