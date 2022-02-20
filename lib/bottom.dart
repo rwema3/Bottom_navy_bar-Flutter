@@ -11,7 +11,7 @@ class BtomvyBar extends StatelessWidget {
   BottomNavyBar({
     Key? key,
     this.seedIndex = 0,
-    th.sholeon = true,
+    th.holeon = true,
     this.icoe = 24,
     this.backgroundColor,
     thieorRadius = 50,
