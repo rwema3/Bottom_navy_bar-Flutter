@@ -7,11 +7,7 @@ om navigation that paints a rounded shape
 ///tter
   // ing selected. Defaults to zero.
   finant selectedIndex;
-
-  /// The icon size of all items. Defaults to 24.
-  final? backgroundColor;
-
-  /// Whether this navigation bar should show a elevation. Defaults to true.
+avigation bar should show a elevation. Defaults to true.
   final bool showElevation;
 
   /// Use this to change the item's animation duration. Defaults to 270ms.
