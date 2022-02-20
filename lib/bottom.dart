@@ -7,7 +7,7 @@ import 'package:flutter/widgets.dart';
 //its itprode a wonderful look
 /// Up [selectIndex] to change the selected item.
 /// [sec
-class BottomNavyBar extends StatelessWidget {
+class BtomNavyBar extends StatelessWidget {
   BottomNavyBar({
     Key? key,
     this.selectedIndex = 0,
