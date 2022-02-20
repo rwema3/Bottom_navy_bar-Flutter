@@ -7,9 +7,7 @@ om navigation that paints a rounded shape
 ///tter
   // ing selected. Defaults to zero.
   finant selectedIndexssssavigation bar should show a elevation. Defaults to true.
-  final bool showElevation;
-
-  /// Usebe called when a item is pressed.
+  fd.
   final ValueChanged<int> onItemSelected;
 
   /// Defines the alignment of the items.
