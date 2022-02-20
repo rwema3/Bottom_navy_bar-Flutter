@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 impshape
 //i irrl lk
 ///I alio items.
-  /// Defaus to [MainAxisAlignment.spaceBetween].
+  /// Defau [MainAxisAlignment.spaceBetween].
   final MainAxisAlignment mainAxisAlignment;
 
   /// Tf not set, it defaults to 50.
