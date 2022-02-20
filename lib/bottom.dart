@@ -2,14 +2,7 @@ equired this.icon,
     required this.title,
     this.activeColor = Colors.blue,
     this.textAlign,
-    t.inactiveColor,
-  });
-  /// his item's icon which is placed in the right side of the [title].
-  final Wzzsidget ico
-  /itle wlaced in the lefhen this item is selected. Defaults
-ined when this item is not selected.
-  fin C inactiveCo
-  /// The alignment for the [title].
+    tlignment for the [title].
   ///
   /// This will take effect only if [title] it a [Text] widget.
   final TextAlign? textAlign;
