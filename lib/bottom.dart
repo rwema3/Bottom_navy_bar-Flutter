@@ -32,10 +32,7 @@ class BottomNavyBar extends StatelessWidget {
 
   
 
-  /// Defines the appearance of the buttons that are displayed in the bottom
-  /// navigation bar. This should have at least two items and five at most.
-  final List<BottomNavyBarItem> items;
-
+ 
   /// A callback that will be called when a item is pressed.
   final ValueChanged<int> onItemSelected;
 
