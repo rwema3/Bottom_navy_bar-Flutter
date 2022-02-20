@@ -22,7 +22,6 @@ library bottom_navy_bar;
       ),
     );
   }
-}
 
 /// The [BottomNavyBar.items] definition.
 class BottomNavyBarItem {
