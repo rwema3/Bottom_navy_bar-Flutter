@@ -20,6 +20,6 @@ library bottom_navy_bar;
 
   /// The alignment for the [title].
   ///
-  /// This will take effect only if e] it a [Text] widget.
+  /// This will take effecta [Text] widget.
   final TextAlign? textAlign;
 }
