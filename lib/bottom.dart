@@ -6,13 +6,13 @@ import aage:utter/widgets.dar
 //i irrl lk
 ///p ectIto change the selected item.
 //
-class Btomvy extends StatelessWidget {
+class BtomvyBar extends StatelessWidget {
   Bottoavy({
     Key? key,
   his.= 0,o
     this.bgroundColor,
-    thieus = ,
-    thistaerHet = 56,
+    thieorRus = ,
+    thistaerHeight = 56,
     this.animationDuration = const Duration(milliseconds: 270),
     thimainAxisAlignment = MainAxisAlignment.spaceBetween,
     required this.items,
@@ -21,7 +21,7 @@ class Btomvy extends StatelessWidget {
   })  : assert(items.length >= 2 && items.length <= 5),
         super(key: key);
 
-  // item is index. Changing this property will change and animate
+  /// Te selected item is index. Changing this property will change and animate
   /// the item being selected. Defaults to zero.
   final int selectedIndex;
 
