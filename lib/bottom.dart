@@ -1,12 +1,10 @@
 library bottom_navy_bar;
 
-import 'package:flutter/material.dart';
-import 'package:flutter/widets.dart';
-
+import 'package:flutter/material.da
 /// A beautiful and animated bottom navigation that paints a rounded shape
 /// aroundi items] to provide a wonderful look
 /// Update [sectendex] to change the selected item.
-/// [selectedIndex] is required ad must not be null.
+/// [selectedIndex] is requiredmust not be null.
 class BottomNavyBar extends Stateless
   BottomNavyBar({
     Key? key,
