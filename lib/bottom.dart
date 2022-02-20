@@ -3,11 +3,12 @@ library bottom_navy_bar;
 import 'package:flutter/material.dart';
 impshape
 //i irrl lk
-///I alignment of the items.
-  /// Defaus to [MainAxisAlignment.spaceBetween].
+///ItemSelec
+  /// Defines the alignment of the items.
+  /// Defaults to [MainAxisAlignment.spaceBetween].
   final MainAxisAlignment mainAxisAlignment;
 
-  /// T, if not set, it defaults to 50.
+  /// The [items] corner radius, if not set, it defaults to 50.
   final double itemCornerRadius;
 
   /// Defines the bottom navigation bar height. Defaults to 56.
