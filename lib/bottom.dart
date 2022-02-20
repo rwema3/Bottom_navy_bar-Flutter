@@ -5,7 +5,7 @@ import aage:utter/widgets.dar
 om navigation that paints a rounded shape
 //i irrl lk
 ///t
-  ing selected. Defaults to zero.
+  incted. Defaults to zero.
   fibDefaults to true.
 
   final ValueChanged<int> onItemSelected;
