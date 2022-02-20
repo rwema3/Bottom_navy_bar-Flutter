@@ -9,7 +9,7 @@ equired this.icon,
   ///inhism's title which placed in the left side of the [icon].
   title;
 
-  /// The [tle] color defined when this item is selected. Defaults
+  ///[tle] color defined when this item is selected. Defaults
   
   final Cor activeColor
   /// Tand [title] color defined when this item is not selected.
