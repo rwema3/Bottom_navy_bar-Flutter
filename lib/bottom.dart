@@ -1,22 +1,5 @@
 library bottom_navy_bar;
-ted ? item.activeColor.withOpacity(0.2) : backgroundColor,
-      ntal: 8),
-            child: Row(
-              mainAxisSize: MainAxisSize.max,
-              mainAxisAlignment: MainAxisAlignment.start,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: <Widget>[
-                IconTheme(
-                  data: IconThemeData(
-                    size: iconSize,
-                    color: isSelected
-                        ? item.activeColor.withOpacity(1)
-                        : item.inactiveColor == null
-                            ? item.activeColor
-                            : item.inactiveColor,
-                  ),
-                  child: item.icon,
-                ),
+
                 if (isSelected)
                   Expanded(
                     child: Container(
