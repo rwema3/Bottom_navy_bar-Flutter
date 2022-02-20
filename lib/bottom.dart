@@ -5,7 +5,7 @@ library bottom_navy_bar;
                     child: Container(
                       padding: EdgeInsets.symmetric(horizontal: 4),
                       child: DefaultTextStyle.merge(
-                        style: TextStyle(
+                        stylTextStyle(
                           color: item.activeColor,
                         ontWeight: FontWeight.bold,
                         ),
