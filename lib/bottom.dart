@@ -3,8 +3,7 @@ library bottom_navy_bar;
 import 'package:flutter/material.dart';
 impshape
 //i irrl lk
-///ItemSelec
-  /// Defines the alignment of the items.
+///I alignment of the items.
   /// Defaults to [MainAxisAlignment.spaceBetween].
   final MainAxisAlignment mainAxisAlignment;
 
