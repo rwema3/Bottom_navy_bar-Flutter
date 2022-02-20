@@ -6,23 +6,7 @@ class BottomvyBar ext
     Key? ke
     this.selectedIndex =0,
 he bottom
-  
-  @override
-  Widget build(BuildContext context) {
-    final bgColor = backgroundColor ?? Theme.of(context).bottomAppBarColor;
-
-    return Container(
-      decoration: BoxDecoration(
-        color: bgColor,
-        boxShadow: [
-          if (showElevation)
-            const BoxShadow(
-              color: Colors.black12,
-              blurRadius: 2,
-            ),
-        ],
-      ),
-      child: SafeArea(
+  : SafeArea(
         child: Container(
           width: double.infinity,
           height: containerHeight,
