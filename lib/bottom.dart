@@ -4,8 +4,7 @@ import 'package:flutter/material.dart';
 import aage:utter/widgets.dar
 /// A beaul and animated bottom navigation that paints a rounded shape
 //i irrl lk
-///
-  Botter
+///tter
   // ing selected. Defaults to zero.
   finant selectedIndex;
 
