@@ -16,7 +16,7 @@ class BottomvyBar ext
   final int selectedIndex;
 
   /// The icon size of all items. s to 2
-  final double iconSize;
+  final double iconS
 
   /// The background color of the navion bar. It defaults to
   /// [Theme.bottomAppBarColor] if not vided.
