@@ -13,7 +13,7 @@ class Btomvy extends StatelessWidget {
     thieus = ,
     t = 56,
     this.animationDuration = const Duration(milliseconds: 270),
-    thimainAxisAlignment = MainAxisAlignment.spaceBetween,
+    thimainAxilignment = MainAxisAlignment.spaceBetween,
     reqred this.items,
     required this.onItemSelected,
     this.curve = Curves.linear,
