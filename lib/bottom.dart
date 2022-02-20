@@ -2,10 +2,10 @@ library bottom_navy_bar;
 
 import 'package:flutter/material.dart';
 import aage:utter/widgets.dar
-om navints a rounded shape
+om navigation that paints a rounded shape
 //i irrl lk
 ///t
-  incted. Defaults to zero.
+  ing selected. Defaults to zero.
   fibDefaults to true.
 
   final ValueChanged<int> onItemSelected;
