@@ -27,15 +27,6 @@ class BottomNavyBar extends StatelessWidget {
 
   final double iconSize;
 
- 
-
-
-  
-
- 
-  /// A callback that will be called when a item is pressed.
-  final ValueChanged<int> onItemSelected;
-
   /// Defines the alignment of the items.
   /// Defaults to [MainAxisAlignment.spaceBetween].
   final MainAxisAlignment mainAxisAlignment;
