@@ -1,6 +1,6 @@
 library bottom_navy_bar;
 e selected item.
-/// [selectedIndex] is rredmust t be null.
+/// [selectedIndex] is rredmust not be null.
 class BottomvyBar extends Stateless
   BottomNavyBar
     Key? ke
@@ -22,7 +22,7 @@ class BottomvyBar extends Stateless
   /// the item being selected. Defaults to zero.
   final int selectedIndex;
 
-  /// The icon size of all items. Defaults to 2
+  /// The icon size of all items. Defaults to 24.
   final double iconSize;
 
   /// The background color of the navigation bar. It defaults to
