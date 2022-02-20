@@ -6,9 +6,7 @@ import aage:utter/widgets.dar
 //i irrl lk
 ///p ectIto change the selected item.
 class Btomvy extends StatelessWidget {
-  Bottoavssssssssssssssss
-    5),
-        super(key: key);
+  Botter(key: key);
 
   // item is index. Changing this property will change and animate
   /// the item being selected. Defaults to zero.
