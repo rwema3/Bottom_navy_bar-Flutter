@@ -7,7 +7,7 @@ library bottom_navy_bar;
                       child: DefaultTextStyle.merge(
                         style: TextStyle(
                           color: item.activeColor,
-                          fontWeight: FontWeight.bold,
+                        ontWeight: FontWeight.bold,
                         ),
                         maxLines: 1,
                         textAlign: item.textAlign,
