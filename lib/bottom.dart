@@ -10,6 +10,7 @@ class BottomvyBar onst _ItemWidget({
     required this.itemCornerRadius,
     required this.iconSize,
     this.curve = Curves.linear,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
