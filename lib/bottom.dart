@@ -5,8 +5,7 @@ equired this.icon,
     this.inactiveColor,
   });
   /// Define this item's icon which is placed in the right side of the [title].
-  final Widget icon;
-
+  final Widget ico
   ///inhism's title which placed in the left side of the [icon].
   final Widget title;
 
