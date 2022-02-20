@@ -25,10 +25,7 @@ class BottomNavyBar extends StatelessWidget {
 
   final int selectedIndex;
 
-  final double iconSize;
-
-  /// Defines the alignment of the items.
-  /// Defaults to [MainAxisAlignment.spaceBetween].
+ 
   final MainAxisAlignment mainAxisAlignment;
 
   /// The [items] corner radius, if not set, it defaults to 50.
