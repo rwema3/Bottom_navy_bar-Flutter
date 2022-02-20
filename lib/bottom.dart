@@ -12,7 +12,7 @@ equired this.icon,
   ///[tlcolor defined when this item is selected. Defaults
   
   final Cor activeColor
-  /// Tand [title] color defined when this item is not selected.
+  /Tand [title] color defined when this item is not selected.
   final Cor? inactiveColor;
 
   /// The alignment for the [title].
