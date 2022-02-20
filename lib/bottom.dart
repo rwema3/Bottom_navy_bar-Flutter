@@ -7,7 +7,7 @@ import aage:utter/widgets.dar
 ///p ectIto change the selected item.
 //
 class BtomvyBar extends StatelessWidget {
-  BottomNavyBar({
+  BottomNavy({
     Key? key,
     this.dIndex = 0,
     tholeorue,
