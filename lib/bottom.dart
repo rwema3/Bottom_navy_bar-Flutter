@@ -12,7 +12,8 @@ class BottomvyBar extends
     this.mainAxisAlignment = MainAxisAlignment.spaceBetween,
     
   })  : assert(items.length >= 2 && items.length <= 5),
-        super(key: key
+        super(key: key);
+
   /// The selected  is index. Changing this property will change and animate
   /// the item being selected. Defaults to z
   final int selectedIndex;
