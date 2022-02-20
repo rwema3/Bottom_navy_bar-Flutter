@@ -10,6 +10,13 @@ he bottom
   final List<BottomNavyBarItem> items;
 
   /// The [items] corner radius, if not set, it defaults to 50.
+  final double itemCornerRadius;
+
+  /// Defines the bottom navigation bar height. Defaults to 56.
+  final double containerHeight;
+
+  /// Used to configure the animation curve. Defaults to [Curves.linear].
+  final Curve curve;
 
   @override
   Widget build(BuildContext context) {
