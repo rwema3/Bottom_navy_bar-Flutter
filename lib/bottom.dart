@@ -2,7 +2,22 @@ library bottom_navy_bar;
 e selected item.
 /// [selectedIndex] is rredmust t be null.
 class BottomvyBar ext
-onst _ItemWidget({
+  BottomNavyBar
+    Key? ke
+    this.selectedIndex =0,
+he bottom
+  : SafeArea
+
+class _ItemWidget extends StatelessWidget {
+  final double iconSize;
+  final bool isSelected;
+  final BottomNavyBarItem item;
+  final Color backgroundColor;
+  final double itemCornerRadius;
+  final Duration animationDuration;
+  final Curve curve;
+
+  const _ItemWidget({
     Key? key,
     required this.item,
     required this.isSelected,
