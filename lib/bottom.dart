@@ -9,7 +9,7 @@ equired this.icon,
   ///inhism's title which placed in the left side of the [icon].
   final Widget title;
 
-  /// The [n] and [title] color defined when this item is selected. Defaults
+  /// The [nnd [title] color defined when this item is selected. Defaults
   
   final Color activeColor
   /// The  and [title] color defined when this item is not selected.
